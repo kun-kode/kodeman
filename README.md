@@ -35,7 +35,10 @@ Or via mail:
 iloveedm723@gmail.com
 <br>
 dohuuminh1984@outlook.com
-#Related page
+<br>
+# Related pages
+<br>
 Currenly, there are no related websites display here
-#Thanks for reading KodeMan fast introduction. We are working on Wiki and improving our products quality
+<br>
+**Thanks for reading KodeMan fast introduction. We are working on Wiki and improving our products quality**
 </html>
