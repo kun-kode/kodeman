@@ -37,7 +37,6 @@ iloveedm723@gmail.com
 dohuuminh1984@outlook.com
 <br>
 # Related pages
-<br>
 Currenly, there are no related websites display here
 <br>
 
