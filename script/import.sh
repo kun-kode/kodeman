@@ -12,6 +12,8 @@ echo Prepare
 echo =======================================================================
 echo KodePas directory
 read path 
+echo KodePas project path
+read project
 read -p "Import C file? (Y/N)" choice
 case "$choice" in
 y|Y ) string="${string} --c";;
@@ -25,7 +27,7 @@ echo ======================================================================
 read -p "Any key to execute"
 echo ======================================================================
 export PATH=$PATH:$path/bin
-cd $path 
+cd $project
 eval ${stringa}
 echo ======================================================================
 read -p "Finshed"

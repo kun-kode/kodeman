@@ -8,6 +8,8 @@ echo Warning
 echo ========================================================================
 echo KodePas path
 read path
+echo KodePas project path (you can use where do you love)
+read project
 echo KodePas project
 echo 1-Native
 echo 2-Web
@@ -29,7 +31,7 @@ echo =======================================================================
 read -p "Process ?"
 echo =======================================================================
 export PATH=$PATH:$path/bin
-cd $path
+cd $project
 eval ${string1}
 echo =======================================================================
 read -p "Any key to exit"

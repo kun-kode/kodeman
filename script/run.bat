@@ -1,22 +1,18 @@
-clear
-echo =======================================================================
-echo KodePas - Build
-echo ======================================================================
-echo Warning
+@echo off
 echo ======================================================================
 echo KodePas environment variable must be installed correctly
+echo You need to have at least a Kode project 
 echo ======================================================================
 echo Prepare
 echo ======================================================================
-echo KodePas path
-read path
+set /p path="KodePas folder: " 
+set /p project="KodePas project folder: "
 echo ======================================================================
-read -p "Ready?"
+pause
 echo ======================================================================
-export PATH=$PATH:$path/bin
-cd $path
-kodepas build
+set PATH=%PATH%:%path%\bin
+cd %project%
+kodepas run
 echo ======================================================================
-read -p "Process finshed"
-clear
+pause
 exit

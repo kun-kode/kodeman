@@ -5,7 +5,7 @@ echo ================================================================
 echo Warning
 echo ================================================================
 echo KodePas variable must be installed correctly 
-echo FPC path is path to FreePascal
+echo FPC path is path to Free Pascal Compiler
 echo KodePas path is the KodePas folder
 echo ================================================================
 echo Prepare
