@@ -41,10 +41,6 @@ public KodeMain() {
 	//Main Panel
 	JPanel panel = new JPanel(new BorderLayout());
 	panel.setBackground(Color.white);
-	//Copyright
-	JLabel cp = new JLabel("Copyright (c) 2020 Kode Organization");
-	cp.setFont(new Font("Open Sans", Font.ITALIC, 10));
-	panel.add(cp, BorderLayout.SOUTH);
 	//Panel for Buttons + Title
 	JPanel panel0 = new JPanel();
 	BoxLayout boxPanel0 = new BoxLayout(panel0, BoxLayout.PAGE_AXIS);
@@ -793,7 +789,7 @@ ActionListener listen = new ActionListener() {
 			JLabel label1 = new JLabel("- KodeMan information");
 			label1.setFont(new Font("Open Sans", Font.BOLD, 16));
 			panel2.add(label1);
-			JLabel label2 = new JLabel("<html>Product name: KodeMan - KodePas GUI Manager" + "<br>" + "Version: 1.1" + "<br>" + "Product developers: Kode Team" + "<br>" + "License: GNU General Public License version 3.0");
+			JLabel label2 = new JLabel("<html>Product name: KodeMan - KodePas GUI Manager" + "<br>" + "Version: 1.1" + "<br>" + "License: GNU General Public License version 3.0");
 			label2.setFont(new Font("Open Sans", Font.TRUETYPE_FONT, 14));
 			panel2.add(label2);
 			JLabel label4 = new JLabel("- KodePas Update Manager");
